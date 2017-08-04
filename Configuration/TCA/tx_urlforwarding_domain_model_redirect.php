@@ -311,7 +311,7 @@ return [
             ]
         ],
         'parameters' => [
-            'exclude' => false,
+            'exclude' => true,
             'label' => 'LLL:EXT:url_forwarding/Resources/Private/Language/TCA/Redirect.xlf:parameters',
             'config' => [
                 'type' => 'input',
@@ -390,7 +390,7 @@ return [
             ]
         ],
         'domain' => [
-            'exclude' => false,
+            'exclude' => true,
             'label' => 'LLL:EXT:url_forwarding/Resources/Private/Language/TCA/Redirect.xlf:domain',
             'config' => [
                 'type' => 'select',
